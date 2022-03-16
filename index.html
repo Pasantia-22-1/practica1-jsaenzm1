@@ -2,16 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xela Hotel</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <div>
-        <header>
-                <ul>
+
+        <!--===================== NAVIGATION MENU ========================-->
+        <header class="headder">
+            <nav class="headder__nav">
+                <ul class="headder__nav__menu">
                     <li><a href="index.html">Xela Hotel</a></li>
                     <li><a href="info.html">Info</a></li>
                     <li><a href="rooms.html">Rooms</a>
-                        <ul>
+                        <ul class="headder__nav__submenu">
                             <li><a href="rooms.html#picadilly">Picadilly</a></li>
                             <li><a href="rooms.html#cambridge">Cambridge</a></li>
                             <li><a href="rooms.html#westminster">Westminster</a></li>
@@ -20,25 +28,57 @@
                     <li><a href="dining.html">Dining</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+            </nav>
         </header>
-        <main>
-                <div>
+
+        <!--===================== MAIN CONTENT ========================-->
+        <main class="main">
+
+            <!-- SECTION 1 -->
+            <section class="main__section">
+                <div class="main__section1__content">
                     <img src="assets/index/intro_room.jpg" alt="Intro Gallery Room Sample Pictures">
                     <img src="assets/index/intro_pool.jpg" alt="Intro Gallery Pool Sample Pictures">
                     <img src="assets/index/intro_dining.jpg" alt="Intro Gallery Dining Sample Pictures">
                     <img src="assets/index/intro_attractions.jpg" alt="Intro Gallery Attractions Sample Pictures">
                     <img src="assets/index/intro_wedding.jpg" alt="Intro Gallery Dining Sample Pictures">
                 </div>
-                <h1>Welcome to the Xela Hotel</h1>
-                <p>The original Xela perseveres after 50 years in the heart of West Xela. <img  src="assets/rooms/rooms_victoria.jpg" /> The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, and good&nbsp;<img src="assets/dining/dining_lattes.jpg" />conversation. &nbsp;To learn more about the Xela Hotel in the West End, The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, browse our website and <a href="files/information_sheet_.pdf">download our handy information sheet</a>.</p>
+            </section>        
+
+            <!-- SECTION 2 -->
+            <section class="main__section">
+                
+                <h1 class="main__title1">Welcome to the Xela Hotel</h1> 
+
+                <div class="main__section2__content">                    
+                    <p>
+                        <img class="content__p__img1" src="assets/rooms/rooms_victoria.jpg" />
+                        The original Xela perseveres after 50 years in the heart of West Xela. The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, and good&nbsp;conversation. 
+                    </p>  
+                    <div>
+                        <img class="content__p__img2" src="assets/dining/dining_lattes.jpg" />
+                    </div>
+                        
+                    <p>
+                        &nbsp;To learn more about the Xela Hotel in the West End, The West End neighborhood has something for everyone—from theater to dining to historic sights. And the not-to-miss Rooftop Cafe is a great place for travelers and locals to engage over drinks, food, browse our website and <a href="files/information_sheet_.pdf">download our handy information sheet</a>.
+                    </p>
+
+
+                </div>
+            </section>
         </main>
-            <div>
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
+        
+        <!--===================== NAVIGATION MENU ========================-->
+        <footer class="footer">
+            <div class="footer__content">
+                <ul class="footer__content__lista">
+                    <li><a classhref="https://twitter.com"><img src="assets/social/twitter.png" alt="icon for twitter"></a></li>
                     <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+                    <li><a href="http://www.youtube.com"><img src="assets/social/youtube.png" alt="icon for youtube"></a></li>
                 </ul>
             </div>
+        </footer>
+
     </div>
 </body>
 </html>

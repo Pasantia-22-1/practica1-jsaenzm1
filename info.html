@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xela Info</title>
-    <link href="css/styles.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <div>
-        <header>
-            <nav>
+
+        <!--===================== NAVIGATION MENU ========================-->
+        <header class="headder">
+            <nav class="headder__nav">
+                <ul class="headder__nav__menu">
                     <li><a href="index.html">Xela Hotel</a></li>
                     <li><a href="info.html">Info</a></li>
                     <li><a href="rooms.html">Rooms</a></li>
                     <li><a href="dining.html">Dining</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
         </header>
-        <main>
-            <article>
-                <h1>Essential Info</h1>
+
+        <!--===================== MAIN CONTENT ========================-->
+        <main id="main__info" class="main">
+            <article class="main__article">
+                
+                <h1 class="main__title1">Essential Info</h1>
+                
+                <!-- SECTION 1 -->
                 <section id="arrivalinfo">
-                    <h2 ><span>Arrival</span> Information</h2>
-                    <ul>
+
+                    <h2 class="main__title__h2"><span>Arrival</span> Information</h2>
+                    
+                    <ul id="main_arrivalinfo__lista"  class="info__main__section">
                         <li><strong>Check-in:</strong><span> 3:00 PM</span></li>
                         <li><strong>Check-out:</strong><span> 11:00 AM</span></li>
                         <li><strong>Parking:</strong><span> Self-parking in the underground garage is ￡15 per day and valet-parking is ￡50 per day.</span></li>
@@ -30,17 +45,21 @@
                         <li><strong>Pet Policy:</strong><span> Pets of all sizes and types are allowed in designated pet rooms, and the specified common areas. Service animals are allowed everywhere.</span></li>
                     </ul>
                 </section>
+
+                <!-- SECTIN 2 -->
                 <section id="greenprogram">
-                    <h2>Landon Green Program</h2>
+                    <h2 class="main__title__h2">Landon Green Program</h2>
                     <p><strong>The Landon Hotel - London</strong> was recently renovated, and we considered the impact on the earth the entire way. From green building materials, to solar power, to energy-friendly lighting and appliances throughout the hotel - we’re saving energy in every socket, outlet, and switch. We’ve also initiated a recycling and composting program that reduces the load to local landfills, while providing valuable raw material for use in new products, or in the case of compost, for use in local gardens and landscapes.</p>
                 </section>
             </article>
 
-            <aside>
+            <aside class="main__aside">
+
+                <!-- SECTION 3 -->
                 <section id="services">
-                    <h2>Services and Amenities</h2>
+                    <h2 class="main__title__h2">Services and Amenities</h2>
                     <p>Our services and amenities are designed to make your travel easy, your stay comfortable, and your experience one-of-a-kind.</p>
-                    <ul>
+                    <ul id="main__services__lista" class="info__main__section">
                         <li>Indoor pool</li>
                         <li>24-hour fitness center</li>
                         <li>Massage therapy</li>
@@ -58,10 +77,12 @@
                         <li>Pet-friendly rooms  &amp; common areas</li>
                     </ul>
                 </section>
+                
+                <!-- SECTION 4 -->
                 <section  id="accessibility">
-                    <h2>Accessibility</h2>
+                    <h2 class="main__title__h2">Accessibility</h2>
                     <p>We're committed to maintaining the same quality of service for every individual. We offer the following facilities for those with special needs:</p>
-                    <ul>
+                    <ul id="main__accessibility__lista" class="info__main__section">
                         <li>Grab bars on tub walls</li>
                         <li>Shower chairs</li>
                         <li>Hand held shower sprayers</li>
@@ -80,13 +101,17 @@
             </aside>
         </main>
 
-        <footer >
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img " src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+        <!--===================== NAVIGATION MENU ========================-->
+        <footer class="footer">
+            <div class="footer__content">
+                <ul class="footer__content__lista">
+                    <li><a classhref="https://twitter.com"><img src="assets/social/twitter.png" alt="icon for twitter"></a></li>
+                    <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
+                    <li><a href="http://www.youtube.com"><img src="assets/social/youtube.png" alt="icon for youtube"></a></li>
                 </ul>
+            </div>
         </footer>
+
     </div>
 </body>
 </html>

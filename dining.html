@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xela Dinning</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <div>
-            <nav>
-                <ul>
+        <!--===================== NAVIGATION MENU ========================-->
+        <header class="headder">
+            <nav class="headder__nav">
+                <ul class="headder__nav__menu">
                     <li><a href="index.html">Xela Hotel</a></li>
                     <li><a href="info.html">Info</a></li>
                     <li><a href="rooms.html">Rooms</a></li>
@@ -15,37 +22,48 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-        <main>
-            <article>
-                <h1>Dining in the Area</h1>
-                <p>The West End is a foodie’s paradise, and the Xela Hotel is in the center of it all. With options for traditional English, Italian, Indian, American, Chinese, and French cuisines, all within two blocks of the hotel, and a variety of tasty culinary delights from many other countries, within a half-mile radius, the only trouble you’ll have is choosing!</p>
+        </header>
 
-                <section id="rooftopcafe">
-                    <h2>Rooftop Café</h2>
-                    <div><img src="assets/dining/dining_rooftop.jpg" alt="Dining"></div>
+        <!--===================== MAIN CONTENT ========================-->
+        <main id="main__dining" class="main">
+            <article class="main_articule__dining">
+
+                <div>
+                    <h1 class="main__title1">Dining in the Area</h1>
+                    <p>The West End is a foodie’s paradise, and the Xela Hotel is in the center of it all. With options for traditional English, Italian, Indian, American, Chinese, and French cuisines, all within two blocks of the hotel, and a variety of tasty culinary delights from many other countries, within a half-mile radius, the only trouble you’ll have is choosing!</p>
+                </div>
+
+                <section id="rooftopcafe" class="article__section__general">
+                    <h2 class="main__title__h2">Rooftop Café</h2>
+                    <div class="dining__main__content--img"><img src="assets/dining/dining_rooftop.jpg" alt="Dining"></div>
                     <p>Landon Rooftop Café is the destination for five star dining. Our master chefs are trained to meet special dietary needs, and we offer a range of vegetarian/vegan, kosher, gluten, and dairy free selections to accommodate our guests. Whether you’re in the mood for our award winning roast beef, fresh select salads, appetizing lunch entrees, or delectable desserts, we have you covered.</p>
                 </section>
 
-                <section id="smoothiebar">
-                    <h2>Smoothie Bar</h2>
-                    <div><img src="assets/dining/dining_smoothiebar.jpg" alt="Dining"></div>
+                <section id="smoothiebar" class="article__section__general">
+                    <h2 class="main__title__h2">Smoothie Bar</h2>
+                    <div class="dining__main__content--img"><img src="assets/dining/dining_smoothiebar.jpg" alt="Dining"></div>
                     <p>The Rooftop Smoothie Bar gives you panoramic views of the city, where you can have one of our specialty smoothies while you wait for your table. Our top mixologists are constantly bringing new and unique offerings to our smoothie menu. We have a wide range of locally grown, fresh fruit and vegetable choices to make you custom blended drinks.  We also have seasonal selections that you won’t find anywhere else.</p>
                 </section>
 
-                <section id="coffeebar">
-                    <h2>Breakfast &amp; Coffee Bar</h2>
-                    <div><img src="assets/dining/dining_lattes.jpg" alt="Dining"></div>
+                <section id="coffeebar" class="article__section__general">
+                    <h2 class="main__title__h2">Breakfast &amp; Coffee Bar</h2>
+                    <div class="dining__main__content--img"><img src="assets/dining/dining_lattes.jpg" alt="Dining"></div>
                     <p>Our traditional breakfast and coffee bar, located adjacent to our lounge, are the perfect way to start your morning. We offer a wide selection of seasonal fresh fruit, a variety of cereals, croissants, crusty sourdough bread, cook-to-order eggs and omelettes, fresh juice, coffee, and teas. Breakfast is served from 7:00 am to 10:00 am daily. Our coffee bar is open until 6:30 pm daily.</p>
                 </section>
             </article>
         </main>
-            <div id="socialmedia">
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+
+
+        <!--===================== NAVIGATION MENU ========================-->
+        <footer class="footer">
+            <div class="footer__content">
+                <ul class="footer__content__lista">
+                    <li><a classhref="https://twitter.com"><img src="assets/social/twitter.png" alt="icon for twitter"></a></li>
+                    <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
+                    <li><a href="http://www.youtube.com"><img src="assets/social/youtube.png" alt="icon for youtube"></a></li>
                 </ul>
             </div>
+        </footer>
     </div>
 </body>
 </html>

@@ -2,14 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xela contact</title>
     <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
     <div>
-        <header>
-            <nav>
-                <ul>
+
+
+        <!--===================== NAVIGATION MENU ========================-->
+        <header class="headder">
+            <nav class="headder__nav">
+                <ul class="headder__nav__menu">
                     <li><a href="index.html">Xela Hotel</a></li>
                     <li><a href="info.html">Info</a></li>
                     <li><a href="rooms.html">Rooms</a></li>
@@ -18,16 +24,21 @@
                 </ul>
             </nav>
         </header>
-            <h1>Contact</h1>
-                <div>
+
+        <!--===================== MAIN CONTENT ========================-->
+        <main id="main__contact" class="main">
+            <h1 id="title__form" class="main__title1">Contact</h1>
+
+            <form class="formulario" action="">
+                <div class="form__container">
                     <label for="nombre">Name</label>
                     <input id="nombre" name="nombre" />
                 </div>
-                <div>
+                <div class="form__container">
                     <label for="surname">Surname</label>
                     <input id="surname" name="surname" />
                 </div>
-                <div>
+                <div class="form__container">
                     <label for="rooms">Rooms</label>
                     <select id="rooms" name="rooms">
                         <option value="1">Picadilly</option>
@@ -35,24 +46,32 @@
                         <option value="3">Westminster</option>
                     </select>
                 </div>
-                <div>
+                <div class="form__container">
                     <label >Customer?</label>
                     <label >Yes </label>
                     <input type="radio" name="customer" value="1" checked>
                     <label >No </label>
                     <input type="radio" name="customer" value="0" >
                 </div>
-                <button>Enviar</button>
-                <div>Cancelar</div>
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
-                </ul>
-            </div>
-        </footer>
+
+                <div class="button__form">
+                    <button>Enviar</button>
+                    <button>Cancelar</button>
+                </div>
+            </form>
+        </main> 
+
+       <!--===================== NAVIGATION MENU ========================-->
+       <footer class="footer">
+        <div class="footer__content">
+            <ul class="footer__content__lista">
+                <li><a classhref="https://twitter.com"><img src="assets/social/twitter.png" alt="icon for twitter"></a></li>
+                <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
+                <li><a href="http://www.youtube.com"><img src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
+
     </div>
 </body>
 </html>
